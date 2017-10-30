@@ -1,0 +1,27 @@
+{
+  "name": "news-tamagotchi-redux",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aphrodite": "^1.2.4",
+    "lodash-fp": "^0.10.4",
+    "nanoid": "^0.2.0",
+    "react": "^15.6.1",
+    "react-animate-height": "^0.10.5",
+    "react-dom": "^15.6.1",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "react-scripts": "1.0.12",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

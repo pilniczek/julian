@@ -1,0 +1,92 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-size: 1.17vw;
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+main {
+  padding: 2rem 6.5rem 2rem 2rem;
+}
+p{
+  margin:0;
+  padding-bottom:1rem;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 3.5rem;
+  float: right;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 2rem;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.h2{
+  display: inline-block;
+  margin-top: 0;
+}
+
+svg {
+  display: block;
+  max-width: 100%
+}
+
+@keyframes second {
+  100% { transform:rotate(360deg) }
+}
+
+@keyframes wing {
+  0% { opacity: 1 }
+  1.99% { opacity: 1 }
+  2% { opacity: 0 } /* add in secondstep */
+  3% { transform: scale(0,0) }
+  3.99% { opacity: 0 }
+  4% { opacity: 1 } /* add in secondstep */
+  6% { transform: scale(1,1) }
+  12% { transform: scale(1,1) }
+  13.99% { opacity: 1 }
+  14% { opacity: 0 } /* add in secondstep */
+  15% { transform: scale(0,0) }
+  15.99% { opacity: 0 }
+  16% { opacity: 1 } /* add in secondstep */
+  18% { transform: scale(1,1) }
+}
+@keyframes closed {
+  0% { opacity: 0 }
+  1.99% { opacity: 0 }
+  2% { opacity: 1 } /* add in secondstep */
+  3.99% { opacity: 1 }
+  4% { opacity: 0 } /* add in secondstep */
+  13.99% { opacity: 0 }
+  14% { opacity: 1 } /* add in secondstep */
+  15.99% { opacity: 1 }
+  16% { opacity: 0 } /* add in secondstep */
+  100% { opacity: 0 } /* add in secondstep */
+}
+@keyframes tongue {
+  50% { transform:rotate(-36deg) }
+  100% { transform:rotate(0deg) }
+}
+@keyframes nose {
+  50% { transform: scale(1.1,1.1) }
+}
+
